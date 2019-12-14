@@ -1,0 +1,32 @@
+main()
+{
+	int a, b, c;
+	char D4;
+	D4 = 'A';
+	d = 4; //erorr 1  变量未声明√
+	a = b = c = 2;
+	a = D4 = c = 2; //error 2  赋值符号两边类型不一致√
+	D4 = D4 + a; //error 3   +两边类型不一致√
+	while (!(a == 3))
+	while(!2) // error 4     ！不是bool型
+	{
+		if (a <= b && c > 0)
+		if(D4)  //error 5  if判断语句不是bool型
+		if(c > 0 && a <= D4) //error 6  comp wxpr两边类型不一致
+		{
+			for (c = 8; c != 3 || c >= 5;)
+			for (c = 8; 9;)  //error 7   第二个expr不是bool
+			for (c = 8; (a + 4) || b;) //error 8   ||两边都不是bool型
+				c = c / 2 + 1;
+		}
+		else
+		{
+			a = 3;
+
+		}
+		b = 1;
+	}
+	cout<<c;
+	cout<<(a<b); //error 9  输出不是int或char
+
+}

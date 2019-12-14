@@ -1,0 +1,44 @@
+void io(char c)
+{
+	cout<<c;
+}
+void fib(int y,int z,int m)
+{
+	int i,t;
+	i=1;
+	cout<<y;
+	cout<<z;
+	while(i<m)
+	{
+		t=z;
+		z=y+z;
+		cout<<z;
+		y=t;
+		i=i+1;
+	}
+}
+void fac()
+{
+	int g, h, k;
+	g = 2;
+	h = 10;
+	k = 1;
+	while(g <= h) 
+	{
+		k = k * g;
+		g++;
+	}
+	cout<<k;
+}
+void main()
+{
+	char d;
+	int a,b,n;
+	d='B';
+	io(d);
+	a=0;
+	b=1;
+	cin>>n;
+	fib(a,b,n);	
+	fac();
+}

@@ -1,0 +1,17 @@
+************Error List************
+序号 行号 节点 错因 
+1    6    13   未声明变量     Node11 d            
+2    8    26   赋值错误       左值Node22类型:Char 右值Node25类型:Int
+3    8    27   赋值错误       左值Node21类型:Int 右值Node26类型:赋值错误
+4    9    31   +计算错误      左值Node29类型:Char 右值Node30类型:Int
+5    9    32   赋值错误       左值Node28类型:Char 右值Node31类型:计算错误
+6    11   38   !逻辑错误      右值Node37类型:Int  
+7    15   53   &&逻辑错误     左值Node49类型:Bool 右值Node52类型:
+8    19   75   ||逻辑错误     左值Node73类型:Int 右值Node74类型:Int
+9    19   83   For语句错误    判断Node75类型:Int  
+10   18   84   For语句错误    判断Node67类型:Int  
+11   15   91   If语句错误     判断Node53类型:逻辑错误
+12   14   92   If语句错误     判断Node46类型:Char 
+13   11   98   While语句错误  判断Node38类型:逻辑错误
+14   30   105  IO类型错误     Node104类型:Bool    
+*************The End*************

@@ -1,0 +1,20 @@
+[Application]
+WindowPlacement=0 1 -1 -1 -1 -1 -76 138 674 647
+[Editor1]
+FileName=.\think.y
+ReadOnly=0
+WindowPlacement1=2 3 0 358 -8 -31 26 26 626 293
+WindowOrder1=1
+Position001=0 51
+Cursor001=0 79 0 79
+SyntaxColouring=2
+TargetSyntaxColouring=3
+[Editor2]
+FileName=.\mylexer.l
+ReadOnly=0
+WindowPlacement1=2 2 0 362 -8 -31 52 52 652 319
+WindowOrder1=2
+Position001=0 22
+Cursor001=44 14 44 14
+SyntaxColouring=1
+TargetSyntaxColouring=3

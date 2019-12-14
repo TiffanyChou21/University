@@ -1,0 +1,16 @@
+[Application]
+WindowPlacement=0 1 -1 -1 -1 -1 413 53 1163 562
+[Editor1]
+FileName=.\post.y
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -8 -31 26 26 626 291
+WindowOrder1=2
+Position001=0 150
+Cursor001=28 152 28 152
+SyntaxColouring=2
+TargetSyntaxColouring=3
+[Output]
+WindowPlacement1=2 3 -1 -1 -8 -31 0 0 604 271
+WindowOrder1=1
+Position1=0 1
+Cursor1=0 5 0 5
