@@ -44,7 +44,7 @@
        - [x] Defination
        - [x] Call
        - [x] Arguments
-       - [x] Return value(After fininshing Finance test)(Maybe discard later if I finish pointer)(Besides, you can not assign a var with a function)
+       - [x] Return value(Besides, you can not assign a var with a function)
        - [ ] Type Check(ID check ,type check, return check,otherst are same as block)
      - [ ] Array & Pointer
        - [x] Array asm

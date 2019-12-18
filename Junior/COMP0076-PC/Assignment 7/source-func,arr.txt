@@ -1,10 +1,10 @@
 void io(char c)
 {
-	cout<<c;
+cout<<c;
 }
-void fib(int y,int z,int m)
+int fib(int y,int z,int m)
 {
-	int i,t;
+int i,t;
 	i=1;
 	cout<<y;
 	cout<<z;
@@ -16,10 +16,11 @@ void fib(int y,int z,int m)
 		y=t;
 		i=i+1;
 	}
+return z;
 }
 void fac()
 {
-	int g, h, k;
+int g, h, k;
 	g = 2;
 	h = 10;
 	k = 1;
@@ -30,15 +31,18 @@ void fac()
 	}
 	cout<<k;
 }
-void main()
+int main()
 {
-	char d;
-	int a,b,n;
-	d='B';
-	io(d);
-	a=0;
-	b=1;
-	cin>>n;
-	fib(a,b,n);	
-	fac();
+char d;
+int a,b,n,te[10];
+d='B';
+io(d);
+a=0;
+b=1;
+cin>>n;
+te[0]=fib(a,b,n);	
+fac();
+te[0]++;
+cout<<te[0];
+return 0;
 }
