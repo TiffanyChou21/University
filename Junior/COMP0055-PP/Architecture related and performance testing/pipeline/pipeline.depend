@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1583977705 source:c:\users\ÌÄÏª\desktop\pipeline\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<ctime>
+
